@@ -1,0 +1,180 @@
+{
+  "homeAbout": {
+    "title": "Acerca de Tanzora",
+    "description": "Estamos comprometidos a hacer el trading accesible y sencillo para todos. Nuestra plataforma combina a la perfección simplicidad con funcionalidades poderosas, asegurando una experiencia segura y eficiente. Evolucionamos continuamente para satisfacer las necesidades de los traders modernos, ayudándote a mantenerte a la vanguardia en un mercado que cambia rápidamente.",
+    "button": "Explora nuestros servicios"
+  },
+  "homeAccounts": {
+    "item1": {
+      "title": "Básica",
+      "minDeposit": "250€",
+      "maxLeverage": "100",
+      "spreads": "Spreads variables",
+      "instruments": "250+ Pares de divisas, Commodities, Índices",
+      "depositCurrency": "USD, EUR, GBP",
+      "maxTradeSize": "10 lotes",
+      "liveSupport": "24/5"
+    },
+    "item2": {
+      "title": "Crecimiento",
+      "minDeposit": "250€",
+      "maxLeverage": "100",
+      "spreads": "Spreads variables",
+      "instruments": "250+ Pares de divisas, Commodities, Índices",
+      "depositCurrency": "USD, EUR, GBP",
+      "maxTradeSize": "10 lotes",
+      "liveSupport": "24/5"
+    },
+    "item3": {
+      "title": "Empresarial ",
+      "minDeposit": "250€",
+      "maxLeverage": "100",
+      "spreads": "Spreads variables",
+      "instruments": "250+ Pares de divisas, Commodities, Índices",
+      "depositCurrency": "USD, EUR, GBP",
+      "maxTradeSize": "10 lotes",
+      "liveSupport": "24/5"
+    },
+    "item4": {
+      "title": "Diamante ",
+      "minDeposit": "250€",
+      "maxLeverage": "100",
+      "spreads": "Spreads variables",
+      "instruments": "250+ Pares de divisas, Commodities, Índices",
+      "depositCurrency": "USD, EUR, GBP",
+      "maxTradeSize": "10 lotes",
+      "liveSupport": "24/5"
+    },
+    "item5": {
+      "title": "VIP",
+      "minDeposit": "250€",
+      "maxLeverage": "100",
+      "spreads": "Spreads variables",
+      "instruments": "250+ Pares de divisas, Commodities, Índices",
+      "depositCurrency": "USD, EUR, GBP",
+      "maxTradeSize": "10 lotes",
+      "liveSupport": "24/5"
+    },
+    "title": "Elige tu cuenta",
+    "subtitle": "Selecciona el paquete de cuenta que mejor se adapte a tu nivel de experiencia y objetivos de trading.",
+    "label1": "Depósito mínimo",
+    "label2": "Protección contra saldo negativo",
+    "label3": "Apalancamiento máximo",
+    "label4": "Spreads",
+    "label5": "Instrumentos",
+    "label6": "Moneda de depósito",
+    "label7": "Tamaño máximo de operación",
+    "label8": "Soporte en vivo",
+    "label9": "Administrador personal de cuenta",
+    "button": "Opera ahora"
+  },
+  "homeApproach": {
+    "title": "Nuestro enfoque",
+    "description": "Tanzora se basa en la transparencia, seguridad y tecnología de vanguardia. Ofrecemos una gama de herramientas sofisticadas diseñadas para mejorar tus estrategias de trading, minimizar riesgos y optimizar el rendimiento. Desde datos de mercado en tiempo real hasta gráficos avanzados, te empoderamos para tomar decisiones informadas que se alineen con tus objetivos financieros.",
+    "button": "Comienza a operar"
+  },
+  "homeHero": {
+    "title1": "Impulsa tu experiencia de trading con",
+    "title2": "soluciones innovadoras",
+    "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras.",
+    "button": "Abre una cuenta"
+  },
+  "homeInstruments": {
+    "item1": {
+      "title": "Forex",
+      "description": "Opera cientos de pares de divisas con spreads ajustados y disponibilidad 24/5."
+    },
+    "item2": {
+      "title": "CFDs",
+      "description": "Aprovecha los movimientos de precios en acciones, materias primas, índices y criptomonedas sin poseer los activos subyacentes."
+    },
+    "item3": {
+      "title": "Acciones",
+      "description": "Invierte en acciones de bolsas globales como NYSE, NASDAQ y LSE."
+    },
+    "item4": {
+      "title": "Índices",
+      "description": "Obtén exposición a segmentos amplios del mercado como el S&P 500 y FTSE 100 con menor volatilidad."
+    },
+    "item5": {
+      "title": "Materias primas",
+      "description": "Accede a recursos esenciales, incluyendo oro, petróleo y productos agrícolas."
+    },
+    "item6": {
+      "title": "Criptomonedas",
+      "description": "Opera con monedas digitales populares con acceso al mercado 24/7."
+    },
+    "title": "Explora nuestros instrumentos de trading",
+    "description": "Descubre una amplia selección de mercados diseñados para adaptarse a todos los estilos y preferencias de trading.",
+    "button": "Abre una cuenta"
+  },
+  "homeSecond": {
+    "item1": {
+      "title": "Tecnología avanzada",
+      "subtitle1": "Ejecución de órdenes a alta velocidad:",
+      "subtitle2": "Datos de mercado en tiempo real:",
+      "text1": "Nuestra plataforma procesa órdenes en milisegundos, asegurando que nunca pierdas un movimiento del mercado.",
+      "text2": "Mantente informado con cotizaciones en vivo y gráficos dinámicos para tomar decisiones de trading oportunas."
+    },
+    "item2": {
+      "title": "Acceso integral al mercado",
+      "subtitle1": "Amplia selección de activos:",
+      "subtitle2": "Trading de criptomonedas 24/7:",
+      "text1": "Accede a Forex, acciones, materias primas, índices y criptomonedas, todo en un solo lugar.",
+      "text2": "Aprovecha la negociación continua de monedas digitales populares para máxima flexibilidad."
+    },
+    "item3": {
+      "title": "Soporte dedicado y seguridad",
+      "subtitle1": "Atención al cliente 24/7:",
+      "subtitle2": "Medidas estrictas de seguridad:",
+      "text1": "Nuestro equipo de expertos está siempre disponible para resolver tus dudas y apoyar tu experiencia de trading.",
+      "text2": "Empleamos cifrado de primer nivel y protocolos de cumplimiento para proteger tus fondos y datos."
+    }
+  },
+  "homeSteps": {
+    "item1": {
+      "title": "Registrar",
+      "text": "Crea tu cuenta rápida y seguramente para obtener acceso completo a nuestra plataforma de trading."
+    },
+    "item2": {
+      "title": "Depositar",
+      "text": "Deposita fondos fácilmente usando varios métodos de pago para iniciar tu experiencia de trading."
+    },
+    "item3": {
+      "title": "Operar",
+      "text": "Explora diversos mercados y ejecuta operaciones con confianza usando nuestras herramientas avanzadas."
+    },
+    "title": "Pasos para comenzar a operar",
+    "button": "Comienza a operar ahora"
+  },
+  "homeTrading": {
+    "tab1": {
+      "title": "Trading web",
+      "description": "Opera inmediatamente desde tu navegador — sin descargas ni instalaciones. Experimenta una interfaz rápida e intuitiva con potentes gráficos y datos de mercado en vivo.",
+      "button": "Trader web"
+    },
+    "tab2": {
+      "title": "Trading móvil",
+      "description": "Mantente conectado dondequiera con nuestra aplicación móvil repleta de funciones. Monitorea tu portafolio, recibe alertas en tiempo real y ejecuta operaciones en movimiento.",
+      "button": "Trader móvil"
+    },
+    "tab3": {
+      "title": "Trader de escritorio",
+      "description": "Experimenta el entorno de trading definitivo con nuestra aplicación de escritorio, diseñada para precisión, velocidad y flujos de trabajo personalizables para traders profesionales.",
+      "button": "Trader de escritorio"
+    },
+    "title": "Nuestras plataformas de trading"
+  },
+  "footer": {
+    "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras.",
+    "copyright": "Tanzora. Todos los derechos reservados.",
+    "links": "Síganos",
+    "disclaimerTitle": "DESCARGO DE RESPONSABILIDAD SOBRE EL RIESGO",
+    "disclaimer1": "El trading conlleva un riesgo considerable, especialmente cuando se utiliza apalancamiento, lo que puede resultar en pérdidas financieras rápidas y significativas. Muchos traders minoristas sufren pérdidas en esta plataforma. Es fundamental comprender completamente los riesgos y reconocer la posibilidad de perder el capital invertido. Los valores de las inversiones pueden fluctuar, y el rendimiento pasado no garantiza resultados futuros. Todos los materiales en este sitio web — incluyendo análisis, información, opiniones, estrategias y técnicas — no constituyen asesoramiento de inversión personalizado ni recomendaciones para comprar o vender instrumentos financieros. Las inversiones iniciales pueden incluir comisiones y costos que afectan el monto total invertido y los retornos. El rendimiento histórico no debe considerarse indicativo de resultados futuros. Además, las variaciones en los tipos de cambio pueden afectar los resultados en Forex.",
+    "disclaimer2": "Para más detalles, por favor revise nuestras Advertencias de Riesgo y Términos y Condiciones. Este sitio utiliza cookies para mejorar la experiencia del usuario, como habilitar la función de inicio de sesión y permitir que socios mediáticos confiables analicen datos agregados de uso. Al aceptar las cookies, usted consiente su uso. Para más información, consulte nuestra Política de Cookies. El sitio es operado por NOMBRE DE LA EMPRESA, número de empresa: NÚMERO REGISTRADO, registrado en DIRECCIÓN REGISTRADA. La empresa procesadora y compensadora es NOMBRE DE LA EMPRESA, registrada en DIRECCIÓN REGISTRADA.",
+    "disclaimer3": "La información en este sitio no está dirigida a residentes de los Estados Unidos. No está destinada para distribución o uso en jurisdicciones donde dichas actividades sean ilegales o violen leyes o regulaciones locales."
+  },
+  "header": {
+    "button": "Iniciar sesión"
+  }
+}

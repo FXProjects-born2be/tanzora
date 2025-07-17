@@ -1,0 +1,56 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.homeSecond {
+  margin-bottom: 120px;
+  &__content {
+    border-radius: 40px;
+    background-color: #252331;
+    padding: 52px 60px;
+    display: flex;
+    gap: 50px;
+    background-image: url('/images/home/decor1.png');
+    background-repeat: no-repeat;
+    background-position: 50px bottom;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 33.33333333333333%;
+    position: relative;
+    z-index: 1;
+    h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 29px; /* 161.111% */
+      span {
+        width: calc(100% - 90px);
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      > div {
+        display: flex;
+        gap: 10px;
+        p {
+          color: #a6aaae;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          width: calc(100% - 42px);
+          span {
+            color: #18afab;
+          }
+        }
+      }
+    }
+  }
+}

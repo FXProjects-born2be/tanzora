@@ -1,0 +1,47 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.homeApproach {
+  margin: 120px 0;
+  padding: 165px 0;
+  background-color: #1B1927;
+  position: relative;
+  > img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    max-width: 70%;
+    height: auto;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+    position: relative;
+    z-index: 1;
+    
+    .details {
+      margin-left: auto;
+      width: calc(50% - 43px);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      h2 {
+        color: #fff;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+      }
+      p {
+        color: #a6aaae;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px; /* 161.111% */
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

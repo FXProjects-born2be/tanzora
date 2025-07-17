@@ -1,0 +1,80 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.footer {
+  background-image: url('/images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  &__col {
+    &:first-child {
+      max-width: 570px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      @include tablet {
+        max-width: 100%;
+      }
+      p {
+        color: #a6aaae;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px; /* 164.286% */
+      }
+    }
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 30px;
+      h5 {
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px; /* 161.111% */
+      }
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 15px;
+    a {
+      display: flex;
+    }
+  }
+
+  &__disclaimer {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #35333e;
+    h4 {
+      color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px; /* 127.778% */
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    p {
+      color: #a6aaae;
+      margin-bottom: 24px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px; /* 164.286% */
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

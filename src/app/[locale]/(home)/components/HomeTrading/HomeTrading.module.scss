@@ -1,0 +1,80 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.homeTrading {
+  margin-bottom: 120px;
+  &__content {
+    display: flex;
+    gap: 14px;
+    > img {
+      width: calc(50% - 7px);
+      height: auto;
+    }
+    .details {
+      width: calc(50% - 7px);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      h2 {
+        color: #000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+      }
+      .tabs {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        gap: 40px;
+        .tabHeader {
+          display: flex;
+          border-radius: 5px;
+          border: 1px solid #252331;
+          > div {
+            width: 33.33333333333333%;
+            text-align: center;
+            height: 58px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #252331;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px; /* 161.111% */
+            border-left: 1px solid #252331;
+            &:first-child {
+              border-left: none;
+            }
+            &.active {
+              background-color: #252331;
+              color: #fff;
+            }
+          }
+        }
+        .tabContent {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 30px;
+          h5 {
+            color: #252331;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px; /* 161.111% */
+          }
+          p {
+            color: #979796;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 162.5% */
+          }
+        }
+      }
+    }
+  }
+}
