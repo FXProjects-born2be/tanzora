@@ -5,7 +5,9 @@
   padding-bottom: 100px;
   padding-left: calc((100% - 1440px) / 2);
   overflow: hidden;
-
+  @include desktop {
+    padding-left: 16px;
+  }
   &__container {
     display: flex;
     justify-content: space-between;

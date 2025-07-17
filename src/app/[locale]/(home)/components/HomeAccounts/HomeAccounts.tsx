@@ -76,8 +76,8 @@ export const HomeAccounts = () => {
       title: t('item3.title', {
         fallback: 'Empresarial ',
       }),
-        minDeposit: t('item3.minDeposit', {
-          fallback: '250€',
+      minDeposit: t('item3.minDeposit', {
+        fallback: '250€',
       }),
       negativeBalanceProtection: '/images/home/greenCheck.svg',
       maxLeverage: t('item3.maxLeverage', {
@@ -240,44 +240,46 @@ export const HomeAccounts = () => {
             </p>
           </motion.div>
           <div className={styles.accounts}>
-            {items.map((item, index) => (
-              <div key={index} className={styles.account}>
-                <div className={styles.top}>
-                  <h3>{item.title}</h3>
-                  <div className={styles.content}>
-                    <p>{item.minDeposit}</p>
-                    <p>
-                      <Image
-                        src={item.negativeBalanceProtection || ''}
-                        alt="negativeBalanceProtection"
-                        width={20}
-                        height={20}
-                      />
-                    </p>
-                    <p>{item.maxLeverage}</p>
-                    <p>{item.spreads}</p>
-                    <p>{item.instruments}</p>
-                    <p>{item.depositCurrency}</p>
-                    <p>{item.maxTradeSize}</p>
-                    <p>{item.liveSupport}</p>
-                    <p>
-                      <Image
-                        src={item.accountManager || ''}
-                        alt="accountManager"
-                        width={20}
-                        height={20}
-                      />
-                    </p>
+            <div className={styles.accountsWrapper}>
+              {items.map((item, index) => (
+                <div key={index} className={styles.account}>
+                  <div className={styles.top}>
+                    <h3>{item.title}</h3>
+                    <div className={styles.content}>
+                      <p>{item.minDeposit}</p>
+                      <p>
+                        <Image
+                          src={item.negativeBalanceProtection || ''}
+                          alt="negativeBalanceProtection"
+                          width={20}
+                          height={20}
+                        />
+                      </p>
+                      <p>{item.maxLeverage}</p>
+                      <p>{item.spreads}</p>
+                      <p>{item.instruments}</p>
+                      <p>{item.depositCurrency}</p>
+                      <p>{item.maxTradeSize}</p>
+                      <p>{item.liveSupport}</p>
+                      <p>
+                        <Image
+                          src={item.accountManager || ''}
+                          alt="accountManager"
+                          width={20}
+                          height={20}
+                        />
+                      </p>
+                    </div>
                   </div>
+                  <Link href={item.link} className={`button ${styles.accountButton}`}>
+                    {t('button', {
+                      fallback: 'Opera ahora',
+                    })}
+                    <ButtonArrow />
+                  </Link>
                 </div>
-                <Link href={item.link} className={`button ${styles.accountButton}`}>
-                  {t('button', {
-                    fallback: 'Opera ahora',
-                  })}
-                  <ButtonArrow />
-                </Link>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@
   margin-bottom: 120px;
   &__content {
     display: flex;
+    align-items: center;
     gap: 14px;
     > img {
       width: calc(50% - 7px);

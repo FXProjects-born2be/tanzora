@@ -23,7 +23,7 @@
     gap: 20px;
   }
   .col1 {
-    width: 20%;
+    width: 280px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -40,40 +40,53 @@
     }
   }
   .accounts {
-    width: 80%;
-    display: flex;
-    gap: 20px;
-    .account {
-      width: 25%;
+    width: calc(100% - 300px);
 
-      .top {
-        display: flex;
-        padding: 25px 23px 45px 23px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 36px;
-        align-self: stretch;
-        border-radius: 10px;
-        background: #ecedef;
-        margin-bottom: 20px;
+    @include desktop {
+      overflow-x: auto;
+    }
+    .accountsWrapper {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      @include desktop {
+        width: 1112px;
+        padding-bottom: 10px;
       }
-      h3 {
-        color: #252331;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 26px; /* 118.182% */
-      }
-      .content {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        p {
+      .account {
+        width: 25%;
+        @include desktop {
+          width: 210px;
+        }
+        .top {
+          display: flex;
+          padding: 25px 23px 45px 23px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 36px;
+          align-self: stretch;
+          border-radius: 10px;
+          background: #ecedef;
+          margin-bottom: 20px;
+        }
+        h3 {
           color: #252331;
-          font-size: 14px;
+          font-size: 22px;
           font-style: normal;
-          font-weight: 500;
-          line-height: 1.2; /* 185.714% */
+          font-weight: 700;
+          line-height: 26px; /* 118.182% */
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          p {
+            color: #252331;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.2; /* 185.714% */
+          }
         }
       }
     }
