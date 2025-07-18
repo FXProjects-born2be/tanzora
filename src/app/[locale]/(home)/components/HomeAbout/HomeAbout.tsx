@@ -36,7 +36,7 @@ export const HomeAbout = () => {
                   'Estamos comprometidos a hacer el trading accesible y sencillo para todos. Nuestra plataforma combina a la perfección simplicidad con funcionalidades poderosas, asegurando una experiencia segura y eficiente. Evolucionamos continuamente para satisfacer las necesidades de los traders modernos, ayudándote a mantenerte a la vanguardia en un mercado que cambia rápidamente.',
               })}
             </p>
-            <Link href={'#'} className={`button ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button ${styles.tabButton}`}>
               {t('button', {
                 fallback: 'Explora nuestros servicios',
               })}

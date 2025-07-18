@@ -41,7 +41,7 @@ export const HomeAccounts = () => {
         fallback: '24/5',
       }),
       accountManager: '/images/home/minus.svg',
-      link: '#',
+      link: '#footer',
     },
     {
       title: t('item2.title', {
@@ -70,7 +70,7 @@ export const HomeAccounts = () => {
         fallback: '24/5',
       }),
       accountManager: '/images/home/minus.svg',
-      link: '#',
+      link: '#footer',
     },
     {
       title: t('item3.title', {
@@ -99,7 +99,7 @@ export const HomeAccounts = () => {
         fallback: '24/5',
       }),
       accountManager: '/images/home/greenCheck.svg',
-      link: '#',
+      link: '#footer',
     },
     {
       title: t('item4.title', {
@@ -128,7 +128,7 @@ export const HomeAccounts = () => {
         fallback: '24/5',
       }),
       accountManager: '/images/home/greenCheck.svg',
-      link: '#',
+      link: '#footer',
     },
     {
       title: t('item5.title', {
@@ -157,7 +157,7 @@ export const HomeAccounts = () => {
         fallback: '24/5',
       }),
       accountManager: '/images/home/greenCheck.svg',
-      link: '#',
+      link: '#footer',
     },
   ];
 

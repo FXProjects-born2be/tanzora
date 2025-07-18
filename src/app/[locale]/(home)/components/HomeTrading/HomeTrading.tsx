@@ -87,7 +87,7 @@ export const HomeTrading = () => {
               <div className={styles.tabContent}>
                 <h5>{tabs[activeTab].title}</h5>
                 <p>{tabs[activeTab].description}</p>
-                <Link href={tabs[activeTab].button} className={`button ${styles.tabButton}`}>
+                <Link href="#footer" className={`button ${styles.tabButton}`}>
                   {tabs[activeTab].button}
                   <ButtonArrow />
                 </Link>

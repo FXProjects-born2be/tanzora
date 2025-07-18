@@ -86,7 +86,7 @@ export const HomeSteps = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <Link href={'#'} className={`button ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button ${styles.tabButton}`}>
               {t('button', {
                 fallback: 'Comienza a operar ahora',
               })}

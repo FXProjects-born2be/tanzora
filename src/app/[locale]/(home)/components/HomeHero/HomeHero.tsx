@@ -49,7 +49,7 @@ export const HomeHero = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <Link href="#" className={`${styles.hero__button} button`}>
+            <Link href="#footer" className={`${styles.hero__button} button`}>
               {t('button', {
                 fallback: 'Abre una cuenta',
               })}

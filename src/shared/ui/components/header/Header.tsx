@@ -35,7 +35,7 @@ export const Header = () => {
             <Image src="/images/logo.svg" alt="Tanzora" width={172} height={40} />
           </Link>
 
-          <Link href="#" className={`${styles.header__button} button`}>
+          <Link href="#footer" className={`${styles.header__button} button`}>
             <span>{t('button', { fallback: 'Iniciar sesión' })}</span>
           </Link>
         </div>

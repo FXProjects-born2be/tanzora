@@ -38,7 +38,7 @@ export const HomeApproach = () => {
                   'Tanzora se basa en la transparencia, seguridad y tecnología de vanguardia. Ofrecemos una gama de herramientas sofisticadas diseñadas para mejorar tus estrategias de trading, minimizar riesgos y optimizar el rendimiento. Desde datos de mercado en tiempo real hasta gráficos avanzados, te empoderamos para tomar decisiones informadas que se alineen con tus objetivos financieros.',
               })}
             </p>
-            <Link href={'#'} className={`button ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button ${styles.tabButton}`}>
               {t('button', {
                 fallback: 'Comienza a operar',
               })}

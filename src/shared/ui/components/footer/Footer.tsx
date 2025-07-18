@@ -12,7 +12,7 @@ export const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <div className={'_container'}>
         <Link href="/" className={styles.footer__logo}>
           <Image src="/images/logo.svg" alt="Tanzora" width={212} height={49} />

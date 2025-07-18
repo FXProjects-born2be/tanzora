@@ -110,7 +110,7 @@ export const HomeInstruments = () => {
                   'Descubre una amplia selección de mercados diseñados para adaptarse a todos los estilos y preferencias de trading.',
               })}
             </p>
-            <Link href={'#'} className={`button-white ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button-white ${styles.tabButton}`}>
               {t('button', {
                 fallback: 'Abre una cuenta',
               })}
