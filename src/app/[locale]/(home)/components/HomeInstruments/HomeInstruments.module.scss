@@ -2,19 +2,35 @@
 
 .homeInstruments {
   margin: 120px 0;
+  @include tablet {
+    margin: 60px 0;
+  }
   &__content {
     display: flex;
     align-items: center;
     gap: 124px;
+    @include tablet {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
     .col1 {
       width: calc(50% - 62px);
       display: flex;
       flex-wrap: wrap;
       gap: 50px;
+      @include tablet {
+        width: 100%;
+        gap: 50px;
+        flex-direction: column;
+      }
       .item {
         width: calc(50% - 25px);
         display: flex;
         flex-direction: column;
+        @include tablet {
+          width: 100%;
+          align-items: center;
+        }
         h3 {
           color: #252331;
           margin: 32px 0 8px 0;
@@ -22,6 +38,9 @@
           font-style: normal;
           font-weight: 500;
           line-height: 29px; /* 161.111% */
+          @include tablet {
+            text-align: center;
+          }
         }
         p {
           color: #979796;
@@ -29,6 +48,9 @@
           font-style: normal;
           font-weight: 400;
           line-height: 26px; /* 162.5% */
+          @include tablet {
+            text-align: center;
+          }
         }
       }
     }
@@ -38,12 +60,19 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 30px;
+      @include tablet {
+        width: 100%;
+        gap: 20px;
+      }
       h2 {
         color: #000;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
-        line-height: 62px; /* 129.167% */
+        line-height: 1.2; /* 129.167% */
+        @include tablet {
+          font-size: 30px;
+        }
       }
       p {
         color: #252331;
@@ -52,6 +81,24 @@
         font-style: normal;
         font-weight: 500;
         line-height: 29px; /* 161.111% */
+      }
+      a {
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    .buttonMobile {
+      display: none;
+      @include tablet {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        a {
+          width: 100%;
+          box-sizing: border-box;
+        }
       }
     }
   }

@@ -7,13 +7,24 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  @include tablet {
+    margin: 60px 0;
+    padding: 40px 0;
+  }
   &__content {
     display: flex;
     align-items: center;
     gap: 86px;
+    @include tablet {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
     > img {
       width: calc(50% - 43px);
       height: auto;
+      @include tablet {
+        width: 100%;
+      }
     }
     .details {
       width: calc(50% - 43px);
@@ -21,12 +32,18 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 30px;
+      @include tablet {
+        width: 100%;
+      }
       h2 {
         color: #fff;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
         line-height: 62px; /* 129.167% */
+        @include tablet {
+          font-size: 30px;
+        }
       }
       p {
         color: #a6aaae;
@@ -35,6 +52,12 @@
         font-weight: 500;
         line-height: 29px; /* 161.111% */
         margin-bottom: 20px;
+      }
+      a {
+        @include tablet {
+          width: 100%;
+          box-sizing: border-box;
+        }
       }
     }
   }

@@ -76,6 +76,14 @@ export const HomeInstruments = () => {
     <section className={styles.homeInstruments}>
       <div className={'_container'}>
         <div className={styles.homeInstruments__content}>
+          <motion.div className={styles.buttonMobile}>
+            <Link href={'#footer'} className={`button-white ${styles.tabButton}`}>
+              {t('button', {
+                fallback: 'Abre una cuenta',
+              })}
+              <ButtonArrow />
+            </Link>
+          </motion.div>
           <div className={styles.col1}>
             {items.map((item, index) => (
               <motion.div

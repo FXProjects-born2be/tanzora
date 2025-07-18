@@ -8,6 +8,12 @@
   @include desktop {
     padding-left: 16px;
   }
+  @include tablet {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   &__container {
     display: flex;
     justify-content: space-between;
@@ -38,6 +44,13 @@
       span {
         color: #18afab;
       }
+      @include desktop {
+        font-size: 60px;
+      }
+      @include tablet {
+        font-size: 40px;
+        text-align: center;
+      }
     }
 
     p {
@@ -46,11 +59,29 @@
       font-style: normal;
       font-weight: 500;
       line-height: 1.3; /* 159.091% */
+      @include tablet {
+        text-align: center;
+      }
+    }
+    > div {
+      @include tablet {
+        width: 100%;
+        box-sizing: border-box;
+      }
+      a {
+        @include tablet {
+          width: 100%;
+          box-sizing: border-box;
+        }
+      }
     }
   }
 
-  img{
+  img {
     height: auto;
+    @include tablet {
+      width: 100%;
+      display: none;
+    }
   }
-
 }
