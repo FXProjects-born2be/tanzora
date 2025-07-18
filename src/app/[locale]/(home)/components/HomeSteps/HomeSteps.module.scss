@@ -40,6 +40,11 @@
       flex-direction: column;
       gap: 30px;
     }
+    > svg {
+      @include tablet {
+        transform: rotate(90deg);
+      }
+    }
   }
   &__item {
     display: flex;
