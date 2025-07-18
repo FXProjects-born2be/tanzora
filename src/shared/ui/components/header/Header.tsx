@@ -31,6 +31,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={'_container'}>
         <div className={styles.header__row}>
+          <Image src="/images/home/decor1.png" alt="Tanzora" width={300} height={300} />
           <Link href="/" className={styles.header__logo}>
             <Image src="/images/logo.svg" alt="Tanzora" width={172} height={40} />
           </Link>
