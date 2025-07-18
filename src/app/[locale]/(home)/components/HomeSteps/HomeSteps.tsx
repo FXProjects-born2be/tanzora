@@ -14,6 +14,14 @@ import styles from './HomeSteps.module.scss';
 export const HomeSteps = () => {
   const t = useTranslations('homeSteps');
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const items = [
     {
       title: t('item1.title', {
@@ -86,7 +94,7 @@ export const HomeSteps = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <Link href={'#footer'} className={`button`}>
+            <Link href={'#footer'} className={`button`} onClick={scrollToFooter}>
               {t('button', {
                 fallback: 'Comienza a operar ahora',
               })}

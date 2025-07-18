@@ -13,6 +13,14 @@ import styles from './HomeApproach.module.scss';
 export const HomeApproach = () => {
   const t = useTranslations('homeApproach');
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className={styles.homeApproach}>
       <Image src={'/images/home/approach.png'} alt={'approach'} width={1144} height={707} />
@@ -38,7 +46,7 @@ export const HomeApproach = () => {
                   'Tanzora se basa en la transparencia, seguridad y tecnología de vanguardia. Ofrecemos una gama de herramientas sofisticadas diseñadas para mejorar tus estrategias de trading, minimizar riesgos y optimizar el rendimiento. Desde datos de mercado en tiempo real hasta gráficos avanzados, te empoderamos para tomar decisiones informadas que se alineen con tus objetivos financieros.',
               })}
             </p>
-            <Link href={'#footer'} className={`button ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
                 fallback: 'Comienza a operar',
               })}

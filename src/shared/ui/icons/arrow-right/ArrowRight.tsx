@@ -1,13 +1,13 @@
 export const ArrowRight = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-      <g clip-path="url(#clip0_16_602)">
+      <g clipPath="url(#clip0_16_602)">
         <path
           d="M34.9999 20.5H4.99994"
           stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M25 10.5L35 20.5L25 30.5"

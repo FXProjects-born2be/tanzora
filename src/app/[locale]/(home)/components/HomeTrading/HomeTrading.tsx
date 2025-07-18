@@ -16,6 +16,14 @@ export const HomeTrading = () => {
   const t = useTranslations('homeTrading');
   const [activeTab, setActiveTab] = useState(0);
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const tabs = [
     {
       title: t('tab1.title', {
@@ -87,7 +95,7 @@ export const HomeTrading = () => {
               <div className={styles.tabContent}>
                 <h5>{tabs[activeTab].title}</h5>
                 <p>{tabs[activeTab].description}</p>
-                <Link href="#footer" className={`button ${styles.tabButton}`}>
+                <Link href="#footer" className={`button ${styles.tabButton}`} onClick={scrollToFooter}>
                   {tabs[activeTab].button}
                   <ButtonArrow />
                 </Link>

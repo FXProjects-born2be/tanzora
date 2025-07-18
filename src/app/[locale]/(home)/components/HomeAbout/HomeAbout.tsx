@@ -13,6 +13,14 @@ import styles from './HomeAbout.module.scss';
 export const HomeAbout = () => {
   const t = useTranslations('homeAbout');
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className={styles.homeAbout}>
       <div className={'_container'}>
@@ -36,7 +44,7 @@ export const HomeAbout = () => {
                   'Estamos comprometidos a hacer el trading accesible y sencillo para todos. Nuestra plataforma combina a la perfección simplicidad con funcionalidades poderosas, asegurando una experiencia segura y eficiente. Evolucionamos continuamente para satisfacer las necesidades de los traders modernos, ayudándote a mantenerte a la vanguardia en un mercado que cambia rápidamente.',
               })}
             </p>
-            <Link href={'#footer'} className={`button ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
                 fallback: 'Explora nuestros servicios',
               })}

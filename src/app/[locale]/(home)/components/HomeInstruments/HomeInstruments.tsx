@@ -13,6 +13,14 @@ import styles from './HomeInstruments.module.scss';
 export const HomeInstruments = () => {
   const t = useTranslations('homeInstruments');
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const items = [
     {
       title: t('item1.title', {
@@ -77,7 +85,7 @@ export const HomeInstruments = () => {
       <div className={'_container'}>
         <div className={styles.homeInstruments__content}>
           <motion.div className={styles.buttonMobile}>
-            <Link href={'#footer'} className={`button-white ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button-white ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
                 fallback: 'Abre una cuenta',
               })}
@@ -118,7 +126,7 @@ export const HomeInstruments = () => {
                   'Descubre una amplia selección de mercados diseñados para adaptarse a todos los estilos y preferencias de trading.',
               })}
             </p>
-            <Link href={'#footer'} className={`button-white ${styles.tabButton}`}>
+            <Link href={'#footer'} className={`button-white ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
                 fallback: 'Abre una cuenta',
               })}

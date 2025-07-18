@@ -23,6 +23,14 @@ export const HomeAccounts = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
 
+  const scrollToFooter = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const footer = document.getElementById('footer');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const items = [
     {
       title: t('item1.title', {
@@ -281,7 +289,7 @@ export const HomeAccounts = () => {
                       </p>
                     </div>
                   </div>
-                  <Link href={item.link} className={`button ${styles.accountButton}`}>
+                  <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
                     {t('button', {
                       fallback: 'Opera ahora',
                     })}
@@ -402,7 +410,7 @@ export const HomeAccounts = () => {
                       </p>
                     </div>
                   </div>
-                  <Link href={item.link} className={`button ${styles.accountButton}`}>
+                  <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
                     {t('button', {
                       fallback: 'Opera ahora',
                     })}
