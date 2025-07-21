@@ -34,7 +34,7 @@ export const HomeTrading = () => {
           'Opera inmediatamente desde tu navegador — sin descargas ni instalaciones. Experimenta una interfaz rápida e intuitiva con potentes gráficos y datos de mercado en vivo.',
       }),
       button: t('tab1.button', {
-        fallback: 'Trader web',
+        fallback: 'Vamos a hablar',
       }),
     },
     {
@@ -46,19 +46,19 @@ export const HomeTrading = () => {
           'Mantente conectado dondequiera con nuestra aplicación móvil repleta de funciones. Monitorea tu portafolio, recibe alertas en tiempo real y ejecuta operaciones en movimiento.',
       }),
       button: t('tab2.button', {
-        fallback: 'Trader móvil',
+        fallback: 'Vamos a hablar',
       }),
     },
     {
       title: t('tab3.title', {
-        fallback: 'Trader de escritorio',
+        fallback: 'Vamos a hablar',
       }),
       description: t('tab3.description', {
         fallback:
           'Experimenta el entorno de trading definitivo con nuestra aplicación de escritorio, diseñada para precisión, velocidad y flujos de trabajo personalizables para traders profesionales.',
       }),
       button: t('tab3.button', {
-        fallback: 'Trader de escritorio',
+        fallback: 'Vamos a hablar',
       }),
     },
   ];

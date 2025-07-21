@@ -128,7 +128,7 @@ export const HomeInstruments = () => {
             </p>
             <Link href={'#footer'} className={`button-white ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
-                fallback: 'Abre una cuenta',
+                fallback: 'Vamos a hablar',
               })}
               <ButtonArrow />
             </Link>

@@ -46,7 +46,7 @@ export const HomeAbout = () => {
             </p>
             <Link href={'#footer'} className={`button ${styles.tabButton}`} onClick={scrollToFooter}>
               {t('button', {
-                fallback: 'Explora nuestros servicios',
+                fallback: 'Vamos a hablar',
               })}
               <ButtonArrow />
             </Link>

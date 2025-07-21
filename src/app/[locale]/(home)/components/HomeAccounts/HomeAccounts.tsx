@@ -291,7 +291,7 @@ export const HomeAccounts = () => {
                   </div>
                   <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
                     {t('button', {
-                      fallback: 'Opera ahora',
+                      fallback: 'Vamos a hablar',
                     })}
                     <ButtonArrow />
                   </Link>
@@ -412,7 +412,7 @@ export const HomeAccounts = () => {
                   </div>
                   <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
                     {t('button', {
-                      fallback: 'Opera ahora',
+                      fallback: 'Vamos a hablar',
                     })}
                     <ButtonArrow />
                   </Link>

@@ -96,7 +96,7 @@ export const HomeSteps = () => {
           >
             <Link href={'#footer'} className={`button`} onClick={scrollToFooter}>
               {t('button', {
-                fallback: 'Comienza a operar ahora',
+                fallback: 'Vamos a hablar',
               })}
               <ButtonArrow />
             </Link>

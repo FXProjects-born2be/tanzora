@@ -60,7 +60,7 @@ export const HomeHero = () => {
           >
             <Link href="#footer" className={`${styles.hero__button} button`} onClick={scrollToFooter}>
               {t('button', {
-                fallback: 'Abre una cuenta',
+                fallback: 'Vamos a hablar',
               })}
               <ButtonArrow />
             </Link>
