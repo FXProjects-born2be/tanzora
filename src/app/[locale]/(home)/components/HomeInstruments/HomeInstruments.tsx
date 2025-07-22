@@ -1,25 +1,16 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
-import { ButtonArrow } from '@/shared/ui/icons';
+import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './HomeInstruments.module.scss';
 
 export const HomeInstruments = () => {
   const t = useTranslations('homeInstruments');
-
-  const scrollToFooter = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const footer = document.getElementById('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const items = [
     {
@@ -85,12 +76,7 @@ export const HomeInstruments = () => {
       <div className={'_container'}>
         <div className={styles.homeInstruments__content}>
           <motion.div className={styles.buttonMobile}>
-            <Link href={'#footer'} className={`button-white ${styles.tabButton}`} onClick={scrollToFooter}>
-              {t('button', {
-                fallback: 'Abre una cuenta',
-              })}
-              <ButtonArrow />
-            </Link>
+            <Button className="button-white" />
           </motion.div>
           <div className={styles.col1}>
             {items.map((item, index) => (
@@ -126,12 +112,7 @@ export const HomeInstruments = () => {
                   'Descubre una amplia selección de mercados diseñados para adaptarse a todos los estilos y preferencias de trading.',
               })}
             </p>
-            <Link href={'#footer'} className={`button-white ${styles.tabButton}`} onClick={scrollToFooter}>
-              {t('button', {
-                fallback: 'Vamos a hablar',
-              })}
-              <ButtonArrow />
-            </Link>
+            <Button className="button-white" />
           </motion.div>
         </div>
       </div>

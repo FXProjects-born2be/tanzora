@@ -1,8 +1,7 @@
 {
   "homeAbout": {
     "title": "Acerca de Tanzora",
-    "description": "Estamos comprometidos a hacer el trading accesible y sencillo para todos. Nuestra plataforma combina a la perfección simplicidad con funcionalidades poderosas, asegurando una experiencia segura y eficiente. Evolucionamos continuamente para satisfacer las necesidades de los traders modernos, ayudándote a mantenerte a la vanguardia en un mercado que cambia rápidamente.",
-    "button": "Vamos a hablar"
+    "description": "Estamos comprometidos a hacer el trading accesible y sencillo para todos. Nuestra plataforma combina a la perfección simplicidad con funcionalidades poderosas, asegurando una experiencia segura y eficiente. Evolucionamos continuamente para satisfacer las necesidades de los traders modernos, ayudándote a mantenerte a la vanguardia en un mercado que cambia rápidamente."
   },
   "homeAccounts": {
     "item1": {
@@ -65,19 +64,16 @@
     "label6": "Moneda de depósito",
     "label7": "Tamaño máximo de operación",
     "label8": "Soporte en vivo",
-    "label9": "Administrador personal de cuenta",
-    "button": "Vamos a hablar"
+    "label9": "Administrador personal de cuenta"
   },
   "homeApproach": {
     "title": "Nuestro enfoque",
-    "description": "Tanzora se basa en la transparencia, seguridad y tecnología de vanguardia. Ofrecemos una gama de herramientas sofisticadas diseñadas para mejorar tus estrategias de trading, minimizar riesgos y optimizar el rendimiento. Desde datos de mercado en tiempo real hasta gráficos avanzados, te empoderamos para tomar decisiones informadas que se alineen con tus objetivos financieros.",
-    "button": "Vamos a hablar"
+    "description": "Tanzora se basa en la transparencia, seguridad y tecnología de vanguardia. Ofrecemos una gama de herramientas sofisticadas diseñadas para mejorar tus estrategias de trading, minimizar riesgos y optimizar el rendimiento. Desde datos de mercado en tiempo real hasta gráficos avanzados, te empoderamos para tomar decisiones informadas que se alineen con tus objetivos financieros."
   },
   "homeHero": {
     "title1": "Impulsa tu experiencia de trading con",
     "title2": "soluciones innovadoras",
-    "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras.",
-    "button": "Vamos a hablar"
+    "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras."
   },
   "homeInstruments": {
     "item1": {
@@ -104,7 +100,6 @@
       "title": "Criptomonedas",
       "description": "Opera con monedas digitales populares con acceso al mercado 24/7."
     },
-    "button": "Vamos a hablar",
     "title": "Explora nuestros instrumentos de trading",
     "description": "Descubre una amplia selección de mercados diseñados para adaptarse a todos los estilos y preferencias de trading."
   },
@@ -144,8 +139,7 @@
       "title": "Operar",
       "text": "Explora diversos mercados y ejecuta operaciones con confianza usando nuestras herramientas avanzadas."
     },
-    "title": "Pasos para comenzar a operar",
-    "button": "Vamos a hablar"
+    "title": "Pasos para comenzar a operar"
   },
   "homeTrading": {
     "tab1": {
@@ -165,16 +159,22 @@
     },
     "title": "Nuestras plataformas de trading"
   },
+  "request": {
+    "successTitle": "¡Gracias!",
+    "successDescription": "Agradecemos que te pongas en contacto con nosotros. Nuestro equipo está emocionado de ayudarte a dar el primer paso hacia el logro de tus objetivos de trading. ¡Nos pondremos en contacto pronto!",
+    "title": "Póngase en Contacto con Nosotros",
+    "description": "¡Estamos ansiosos por conectarnos contigo! Rellena el formulario a continuación, y uno de nuestros miembros del equipo se pondrá en contacto contigo para discutir cómo podemos ayudarte en tu camino de trading:"
+  },
   "footer": {
     "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras.",
-    "copyright": "Tanzora. Todos los derechos reservados.",
-    "links": "Síganos",
-    "disclaimerTitle": "DESCARGO DE RESPONSABILIDAD SOBRE EL RIESGO",
-    "disclaimer1": "El trading conlleva un riesgo considerable, especialmente cuando se utiliza apalancamiento, lo que puede resultar en pérdidas financieras rápidas y significativas. Muchos traders minoristas sufren pérdidas en esta plataforma. Es fundamental comprender completamente los riesgos y reconocer la posibilidad de perder el capital invertido. Los valores de las inversiones pueden fluctuar, y el rendimiento pasado no garantiza resultados futuros. Todos los materiales en este sitio web — incluyendo análisis, información, opiniones, estrategias y técnicas — no constituyen asesoramiento de inversión personalizado ni recomendaciones para comprar o vender instrumentos financieros. Las inversiones iniciales pueden incluir comisiones y costos que afectan el monto total invertido y los retornos. El rendimiento histórico no debe considerarse indicativo de resultados futuros. Además, las variaciones en los tipos de cambio pueden afectar los resultados en Forex.",
-    "disclaimer2": "Para más detalles, por favor revise nuestras Advertencias de Riesgo y Términos y Condiciones. Este sitio utiliza cookies para mejorar la experiencia del usuario, como habilitar la función de inicio de sesión y permitir que socios mediáticos confiables analicen datos agregados de uso. Al aceptar las cookies, usted consiente su uso. Para más información, consulte nuestra Política de Cookies. El sitio es operado por NOMBRE DE LA EMPRESA, número de empresa: NÚMERO REGISTRADO, registrado en DIRECCIÓN REGISTRADA. La empresa procesadora y compensadora es NOMBRE DE LA EMPRESA, registrada en DIRECCIÓN REGISTRADA.",
-    "disclaimer3": "La información en este sitio no está dirigida a residentes de los Estados Unidos. No está destinada para distribución o uso en jurisdicciones donde dichas actividades sean ilegales o violen leyes o regulaciones locales."
+    "copyright": "Tanzora. All Rights Reserved.",
+    "address": "Address",
+    "number": "Number"
   },
   "header": {
     "button": "Iniciar sesión"
+  },
+  "button": {
+    "button": "Vamos a hablar"
   }
 }

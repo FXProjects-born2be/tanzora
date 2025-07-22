@@ -1,26 +1,17 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
-import { ButtonArrow } from '@/shared/ui/icons';
 import { ArrowRight } from '@/shared/ui/icons/arrow-right/ArrowRight';
+import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './HomeSteps.module.scss';
 
 export const HomeSteps = () => {
   const t = useTranslations('homeSteps');
-
-  const scrollToFooter = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const footer = document.getElementById('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const items = [
     {
@@ -94,12 +85,7 @@ export const HomeSteps = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <Link href={'#footer'} className={`button`} onClick={scrollToFooter}>
-              {t('button', {
-                fallback: 'Vamos a hablar',
-              })}
-              <ButtonArrow />
-            </Link>
+            <Button />
           </motion.div>
         </motion.div>
       </div>

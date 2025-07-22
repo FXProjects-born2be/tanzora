@@ -1,28 +1,18 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
-import { ButtonArrow } from '@/shared/ui/icons';
+import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './HomeTrading.module.scss';
-
 
 export const HomeTrading = () => {
   const t = useTranslations('homeTrading');
   const [activeTab, setActiveTab] = useState(0);
-
-  const scrollToFooter = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const footer = document.getElementById('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const tabs = [
     {
@@ -95,10 +85,7 @@ export const HomeTrading = () => {
               <div className={styles.tabContent}>
                 <h5>{tabs[activeTab].title}</h5>
                 <p>{tabs[activeTab].description}</p>
-                <Link href="#footer" className={`button ${styles.tabButton}`} onClick={scrollToFooter}>
-                  {tabs[activeTab].button}
-                  <ButtonArrow />
-                </Link>
+                <Button />
               </div>
             </div>
           </div>

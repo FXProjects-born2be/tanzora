@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
@@ -10,7 +9,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
-import { ButtonArrow } from '@/shared/ui/icons';
+import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './HomeAccounts.module.scss';
 
@@ -22,14 +21,6 @@ export const HomeAccounts = () => {
   const t = useTranslations('homeAccounts');
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
-
-  const scrollToFooter = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const footer = document.getElementById('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const items = [
     {
@@ -289,12 +280,7 @@ export const HomeAccounts = () => {
                       </p>
                     </div>
                   </div>
-                  <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
-                    {t('button', {
-                      fallback: 'Vamos a hablar',
-                    })}
-                    <ButtonArrow />
-                  </Link>
+                  <Button />
                 </div>
               ))}
             </div>
@@ -410,12 +396,7 @@ export const HomeAccounts = () => {
                       </p>
                     </div>
                   </div>
-                  <Link href={item.link} className={`button ${styles.accountButton}`} onClick={scrollToFooter}>
-                    {t('button', {
-                      fallback: 'Vamos a hablar',
-                    })}
-                    <ButtonArrow />
-                  </Link>
+                  <Button />
                 </div>
               </SwiperSlide>
             ))}

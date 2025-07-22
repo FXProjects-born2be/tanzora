@@ -8,6 +8,7 @@ import { Footer, Header } from '@/shared/ui/components';
 import '@/shared/lib/styles/null.scss';
 import '@/shared/lib/styles/base.scss';
 
+import { RequestModal } from '@/featured/contact-popup/ui/RequestModal/RequestModal';
 
 const firaSans = Fira_Sans({
   variable: '--font-fira-sans',
@@ -21,21 +22,18 @@ const inter = Inter({
   weight: ['400', '500', '600', '700', '800', '900'],
 });
 
-
 export const metadata: Metadata = {
   title: {
     template: '%s | Tanzora',
     default: 'Tanzora',
   },
-  description:
-    '',
+  description: '',
   openGraph: {
     title: {
       template: '%s | Tanzora',
       default: 'Tanzora',
     },
-    description:
-      '',
+    description: '',
     //images: 'https://tanzora.io/images/meta.png',
   },
 };
@@ -53,9 +51,10 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={inter.variable + ' ' + firaSans.variable}>
         <NextIntlClientProvider>
-            <Header />
-            {children}
-            <Footer />
+          <Header />
+          {children}
+          <Footer />
+          <RequestModal />
         </NextIntlClientProvider>
       </body>
     </html>

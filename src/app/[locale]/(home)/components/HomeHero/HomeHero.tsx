@@ -1,25 +1,16 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { fadeInRight, fadeInUp } from '@/shared/lib/helpers/animations';
-import { ButtonArrow } from '@/shared/ui/icons';
+import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './HomeHero.module.scss';
 
 export const HomeHero = () => {
   const t = useTranslations('homeHero');
-
-  const scrollToFooter = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const footer = document.getElementById('footer');
-    if (footer) {
-      footer.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <section className={styles.hero}>
@@ -58,12 +49,7 @@ export const HomeHero = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <Link href="#footer" className={`${styles.hero__button} button`} onClick={scrollToFooter}>
-              {t('button', {
-                fallback: 'Vamos a hablar',
-              })}
-              <ButtonArrow />
-            </Link>
+            <Button />
           </motion.div>
         </div>
 

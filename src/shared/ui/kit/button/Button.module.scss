@@ -1,0 +1,64 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.button {
+  display: flex;
+  padding: 14px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 8px;
+  background: #18afab;
+  border: 1px solid #18afab;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: transparent;
+    color: #18afab;
+    svg {
+      path {
+        stroke: #18afab;
+      }
+    }
+  }
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.button-white {
+  display: flex;
+  padding: 14px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #18afab;
+  color: #18afab;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+  transition: all 0.3s ease-in-out;
+  svg {
+    path {
+      stroke: #18afab;
+    }
+  }
+  &:hover {
+    background: #18afab;
+    color: #fff;
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+  @include tablet {
+    width: 100%;
+  }
+}
