@@ -14,8 +14,21 @@
     justify-content: space-between;
     margin-top: 40px;
     @include tablet {
-      flex-direction: column;
-      gap: 30px;
+      flex-direction: column-reverse;
+      gap: 80px;
+    }
+  }
+  &__bottom {
+    margin-top: 40px;
+    p {
+      color: #a6aaae;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px; /* 164.286% */
+      @include tablet {
+        text-align: center;
+      }
     }
   }
   &__logo {
@@ -25,15 +38,31 @@
       width: fit-content;
     }
   }
+  h4 {
+    color: #a6aaae;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 164.286% */
+    margin-bottom: 40px;
+    @include tablet {
+      display: none;
+    }
+  }
   &__col {
+    width: 50%;
+    @include tablet {
+      width: 100%;
+    }
     &:first-child {
-      max-width: 570px;
       display: flex;
       flex-direction: column;
-      gap: 40px;
       @include tablet {
         max-width: 100%;
         align-items: center;
+        flex-direction: column-reverse;
+        gap: 30px;
       }
       p {
         color: #a6aaae;
@@ -42,17 +71,29 @@
         font-weight: 500;
         line-height: 23px; /* 164.286% */
         @include tablet {
-          text-align: center;
+          width: 100%;
+          br {
+            display: none;
+          }
         }
       }
     }
     &:last-child {
-      display: flex;
-      gap: 30px;
-      @include tablet {
-        align-items: flex-start;
-        flex-direction: column;
+    }
 
+    .address {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 40px;
+      width: 100%;
+      @include tablet {
+      }
+      > div {
+        width: calc(50% - 15px);
+        &:last-child {
+          width: 100%;
+        }
       }
       h5 {
         color: #fff;
@@ -61,13 +102,15 @@
         font-style: normal;
         font-weight: 600;
         line-height: 29px; /* 161.111% */
+        margin-bottom: 8px;
       }
-      p {
-        color: #a6aaae;
-        font-size: 14px;
+      p,
+      a {
+        color: #fff;
+        font-size: 18px;
         font-style: normal;
-        font-weight: 500;
-        line-height: 23px; /* 164.286% */
+        font-weight: 600;
+        line-height: 29px; /* 161.111% */
       }
     }
   }

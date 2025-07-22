@@ -166,10 +166,11 @@
     "description": "¡Estamos ansiosos por conectarnos contigo! Rellena el formulario a continuación, y uno de nuestros miembros del equipo se pondrá en contacto contigo para discutir cómo podemos ayudarte en tu camino de trading:"
   },
   "footer": {
-    "description": "Tanzora ofrece una plataforma de trading segura e intuitiva, brindando acceso a mercados globales, incluyendo Forex, acciones, materias primas, índices y criptomonedas. Dedicados a la innovación y soporte, empoderamos a los traders para alcanzar sus metas financieras.",
-    "copyright": "Tanzora. All Rights Reserved.",
+    "email": "Email",
+    "phone": "Phone number",
     "address": "Address",
-    "number": "Number"
+    "number": "Number",
+    "copyright": "Tanzora. All Rights Reserved."
   },
   "header": {
     "button": "Iniciar sesión"
