@@ -166,10 +166,6 @@
     "description": "¡Estamos ansiosos por conectarnos contigo! Rellena el formulario a continuación, y uno de nuestros miembros del equipo se pondrá en contacto contigo para discutir cómo podemos ayudarte en tu camino de trading:"
   },
   "footer": {
-    "email": "Email",
-    "phone": "Phone number",
-    "address": "Address",
-    "number": "Number",
     "copyright": "Tanzora. All Rights Reserved."
   },
   "header": {

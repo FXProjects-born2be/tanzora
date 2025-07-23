@@ -7,8 +7,8 @@ import { useTranslations } from 'next-intl';
 
 import styles from './Footer.module.scss';
 
-import { RequestForm } from '@/featured/contact-popup/ui/RequestForm/RequestForm';
-import { ThankyouModal } from '@/featured/contact-popup/ui/ThankyouModal/ThankyouModal';
+//import { RequestForm } from '@/featured/contact-popup/ui/RequestForm/RequestForm';
+//import { ThankyouModal } from '@/featured/contact-popup/ui/ThankyouModal/ThankyouModal';
 
 export const Footer = () => {
   const t = useTranslations('footer');
@@ -22,26 +22,46 @@ export const Footer = () => {
             <Link href="/" className={styles.footer__logo}>
               <Image src="/images/logo.svg" alt="Tanzora" width={212} height={49} />
             </Link>
-            <h4>Brandnova Studios LLC</h4>
-            <div className={styles.address}>
+            <div className={styles.details}>
               <div>
-                <Link href="mailto:info@tanzora.io">info@tanzora.io</Link>
-              </div>
-              <div>
-                <Link href="tel:+442036756517">+442036756517</Link>
-              </div>
-              <div>
+                <Image src={'/images/company.svg'} alt="Company" width={24} height={24} />
                 <p>
-                  Desarrollo Hamilton, Unidad B, <br />
-                  Charlestown, Nevis, Indias Occidentales
+                  Nombre de la empresa <span>Brandnova Studios LLC</span>
+                </p>
+              </div>
+              <div>
+                <Image src={'/images/address.svg'} alt="Address" width={24} height={24} />
+                <p>
+                  Dirección de la empresa{' '}
+                  <span>
+                    Desarrollo Hamilton, Unidad B, Charlestown, Nevis, Indias Occidentales
+                  </span>
+                </p>
+              </div>
+              <div>
+                <Image src={'/images/number.svg'} alt="Number" width={24} height={24} />
+                <p>
+                  Número de empresa <span>L 23777</span>
+                </p>
+              </div>
+              <div>
+                <Image src={'/images/email.svg'} alt="Email" width={24} height={24} />
+                <p>
+                  Correo electrónico <Link href="mailto:info@tanzora.io">info@tanzora.io</Link>
+                </p>
+              </div>
+              <div>
+                <Image src={'/images/phone.svg'} alt="Phone" width={24} height={24} />
+                <p>
+                  Teléfono <Link href="tel:+442036756517">+442036756517</Link>
                 </p>
               </div>
             </div>
           </div>
-          <div className={styles.footer__col}>
+          {/**<div className={styles.footer__col}>
             <RequestForm />
             <ThankyouModal />
-          </div>
+          </div> */}
         </div>
         <div className={styles.footer__bottom}>
           <p>
